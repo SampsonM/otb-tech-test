@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageWrapper PageWrapper fragment matches the snapshot 1`] = `
+<DocumentFragment>
+  <main
+    class="PageWrapper-otb__sc-5ec17cfc-0 gWybxw"
+  />
+</DocumentFragment>
+`;

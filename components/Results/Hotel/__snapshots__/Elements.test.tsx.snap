@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Elements Container fragment matches the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="Elements__Container-otb__sc-eb6dccc9-0"
+  />
+</DocumentFragment>
+`;

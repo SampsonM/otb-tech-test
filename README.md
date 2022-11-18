@@ -1,34 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# OTB-Tech-Test
 
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app), primarily because I'm here to demonstrate some knowledge of clean code and React, TypeScript, Testing, and try out some NextJS as it's used by OTB.
+
+And although its definitely overkill for something like this it made sense to add some pizzazz!
+
+## `Some House Keeping`
+
+Before we get started, as this is a tech test, I want to lay out what is different between what I'd do in production and here.
+
+
+### `Why Aren't You Pairing?`
+
+Well I stopped offering to do that when I realised I spend more time thinking - "they probably think you're an idiot for not knowing this now, well done, you've blown it..." - more than actually thinking about the problem I was dealing with. When in reality I was just writing an if statement and nobody was paying attention just yet.
+
+In reality when I am comfortable and a job isn't on the line, I like to chat with folk and enjoy the process because why not!
+
+### `Will You Write Conventional commits?`
+
+These would be done in the real world, but its just me here and the likely-hood of anybody needing to read those to debug or revert some critical work is minimal, so I will just use descriptive commits.
+
+### `Well, What About Unit Testing?`
+
+I will do some testing to demonstrate but again we aren't deploying to millions of people ~~yet~~ just now so I will keep it basic.
+
+### `Well what about all the other automated tests you idiot?!?!...`
+
+It's just a tech test mate chill out...
+
+### `Yeah you're right they should understand...`
+
+No pressure then. Here we go.
+
+#
 ## Getting Started
 
-First, run the development server:
+To run in development mode;
 
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+To run in production mode;
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run dev
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+And to run either of the above successfully
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```bash
+npm install - # of course do this first please
+```

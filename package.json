@@ -7,14 +7,17 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "lint:fix": "next lint --fix",
     "test": "jest"
   },
   "dependencies": {
     "next": "13.0.4",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-icons": "^4.6.0"
   },
   "devDependencies": {
+    "@next/eslint-plugin-next": "^13.0.4",
     "@testing-library/jest-dom": "5.16.4",
     "@testing-library/react": "13.2.0",
     "@testing-library/user-event": "14.2.0",
@@ -22,8 +25,10 @@
     "@types/react": "18.0.25",
     "@types/react-dom": "18.0.9",
     "@types/styled-components": "^5.1.26",
+    "@typescript-eslint/parser": "^5.43.0",
     "eslint": "8.27.0",
     "eslint-config-next": "13.0.4",
+    "eslint-plugin-testing-library": "^5.9.1",
     "jest": "28.1.0",
     "jest-environment-jsdom": "28.1.0",
     "styled-components": "^5.3.6",

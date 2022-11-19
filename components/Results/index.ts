@@ -1,1 +1,1 @@
-export { default as Hotel } from './Hotel/Hotel'
+export { default as HolidayCard } from './HolidayCard/HolidayCard'

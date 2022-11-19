@@ -18,7 +18,8 @@ export const Strong = styled.strong`
 
 const Typography = {
 	H3,
-	P
+	P,
+	Strong,
 }
 
 export default Typography

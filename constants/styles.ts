@@ -11,7 +11,7 @@ export const deviceWidthQuery = {
 }
 
 export const colours = {
-	primaryBlue: '#0000c8',
+	primaryBlue: '#000088',
 	primaryYellow: '#fedc06',
 	primaryWhite: '#fff',
 	secondaryGrey: '#dedede'

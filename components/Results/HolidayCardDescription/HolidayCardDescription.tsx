@@ -1,6 +1,6 @@
-import { Strong } from "@/components/Common/Typography/Typography"
 import React, { useState } from "react"
 import { FaChevronDown, FaChevronUp } from "react-icons/fa"
+import { Strong } from "@/components/Common"
 import { DescriptionWrapper, DescriptionContainer, ReadMoreButton } from "./components"
 
 const HolidayCardDescription = ({ description }: { description: string }) => {

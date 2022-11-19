@@ -1,2 +1,5 @@
 export { default as PageWrapper } from './PageWrapper/PageWrapper'
-export { default as Typography } from './Typography/Typography'
+export { H3 as H3 } from './Typography/Typography'
+export { P as P } from './Typography/Typography'
+export { Strong as Strong } from './Typography/Typography'
+export { PrimaryButton as PrimaryButton } from './Button/Button'

@@ -19,10 +19,12 @@ export const ImageAndDetails = styled.div`
 `
 
 export const StyledImageWrapper = styled.div`
-	width: 100%;
-	height: auto;
-
+	position: relative;
+	max-width: 100%;
+	height: 250px;
+	
 	@media ${deviceWidthQuery.tablet} {
+		height: auto;
 		width: 65%;
 	}
 `
@@ -30,4 +32,5 @@ export const StyledImageWrapper = styled.div`
 export const StyledImage = styled(Image)`
 	width: 100%;
 	height: 100%;
+	object-fit: cover;
 `

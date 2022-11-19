@@ -5,6 +5,7 @@ import HolidayCardDetails from "./HolidayCardDetails"
 describe("HolidayCardDetails", () => {
 	test("should render correct string with multiple adults, children and infants", () => {
 		render(<HolidayCardDetails
+			id={1}
 			adultCount={2}
 			childrenCount={2}
 			infantCount={2}
@@ -30,6 +31,7 @@ describe("HolidayCardDetails", () => {
 
 	test("should render correct string with single adults, children and infants", () => {
 		render(<HolidayCardDetails
+			id={1}
 			adultCount={1}
 			childrenCount={1}
 			infantCount={1}
@@ -55,6 +57,7 @@ describe("HolidayCardDetails", () => {
 
 	test("should render correct string with single adults, and no children or infants", () => {
 		render(<HolidayCardDetails
+			id={1}
 			adultCount={1}
 			childrenCount={0}
 			infantCount={0}
@@ -80,6 +83,7 @@ describe("HolidayCardDetails", () => {
 
 	test("should render correct string with single adults, and no children or infants", () => {
 		render(<HolidayCardDetails
+			id={1}
 			adultCount={1}
 			// @ts-expect-error - testing "runtime" values
 			childrenCount={undefined}

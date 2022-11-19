@@ -5,9 +5,8 @@ import {
 	StyledImageWrapper,
 	StyledImage,
 } from './components'
-import { HolidayCardDetails } from "../HolidayCardDetails"
-import HolidayCardDescription from "../HolidayCardDescription/HolidayCardDescription"
-import { HolidayData } from "../../../constants/mockData"
+import { HolidayCardDetails, HolidayCardDescription } from "@/components/Results"
+import { HolidayData } from "@/constants/mockData"
 
 type HolidayCardProps = {
 	holidayData: HolidayData
@@ -21,8 +20,7 @@ const HolidayCard = ({ holidayData }: HolidayCardProps): JSX.Element => {
 					<StyledImage
 						src={holidayData.hotelImageUrl}
 						alt={`Picture of a ${holidayData.hotelName}`}
-						height={300}
-						width={500}
+						fill
 					/>
 				</StyledImageWrapper>
 

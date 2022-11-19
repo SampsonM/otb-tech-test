@@ -34,7 +34,7 @@ export const ReadMoreButton = styled.button`
 		width: auto;
 		padding: 10px 20px;
     position: absolute;
-    top: -38px;
+    top: -40px;
     height: auto;
 	}
 `

@@ -1,9 +1,8 @@
 import React from "react"
-import { PrimaryButton } from "@/components/Common/Button/Button"
-import { H3, P, Strong } from "@/components/Common/Typography/Typography"
-import { HolidayData } from "@/pages/index"
+import { PrimaryButton, H3, P, Strong } from "@/components/Common"
 import { Cost, DetailsContainer, HotelLocation, LocationRatingContainer } from "./components"
-import HolidayRatings from "../HolidayRatings/HolidayRatings"
+import { HolidayRatings } from "@/components/Results"
+import { HolidayData } from "@/constants/mockData"
 
 const Adults = ({ adultCount }: { adultCount: number }) =>
 	<>

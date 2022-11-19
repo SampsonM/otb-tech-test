@@ -1,13 +1,13 @@
-import React from "react"
+import React, { useState } from "react"
 import { HolidayData } from "../../../pages"
 import {
 	Container,
 	ImageAndDetails,
 	StyledImageWrapper,
 	StyledImage,
-	Description
 } from './components'
 import { HolidayCardDetails } from "../HolidayCardDetails"
+import HolidayCardDescription from "../HolidayCardDescription/HolidayCardDescription"
 
 type HolidayCardProps = {
 	holidayData: HolidayData
@@ -30,9 +30,7 @@ const HolidayCard = ({ holidayData }: HolidayCardProps): JSX.Element => {
 				<HolidayCardDetails {...holidayData} />
 			</ImageAndDetails>
 			
-			<Description>
-				{holidayData.description}
-			</Description>
+			<HolidayCardDescription description={holidayData.description} />
 		</Container>
 	)
 }

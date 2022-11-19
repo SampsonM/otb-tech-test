@@ -56,7 +56,7 @@ const HolidayCardDetails = ({
 				{infantCount > 0 && <Infants infantCount={infantCount} />}
 			</P>
 
-			<P><Strong>{departureDate}</Strong>, for <Strong>{holidayDays}</Strong>days</P>
+			<P><Strong>{departureDate}</Strong> for <Strong>{holidayDays}</Strong> days</P>
 
 			<P>departing from <Strong>{departureAirport}</Strong></P>
 			

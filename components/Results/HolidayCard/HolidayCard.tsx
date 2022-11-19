@@ -1,5 +1,4 @@
-import React, { useState } from "react"
-import { HolidayData } from "../../../pages"
+import React from "react"
 import {
 	Container,
 	ImageAndDetails,
@@ -8,6 +7,7 @@ import {
 } from './components'
 import { HolidayCardDetails } from "../HolidayCardDetails"
 import HolidayCardDescription from "../HolidayCardDescription/HolidayCardDescription"
+import { HolidayData } from "../../../constants/mockData"
 
 type HolidayCardProps = {
 	holidayData: HolidayData

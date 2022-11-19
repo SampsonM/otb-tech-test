@@ -8,7 +8,7 @@ export const H3 = styled.h3`
 
 export const P = styled.p`
 	font-size: 16px;
-	margin: 5px 0;
+	margin: 7px 0;
 `
 
 export const Strong = styled.strong`

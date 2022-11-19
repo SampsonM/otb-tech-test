@@ -6,6 +6,7 @@ export const Container = styled.div`
 	display: flex;
 	flex-direction: column;
 	background-color: ${colours.primaryWhite};
+	margin-bottom: 20px;
 `
 
 export const ImageAndDetails = styled.div`

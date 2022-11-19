@@ -1,6 +1,6 @@
 import React from "react"
 import { PrimaryButton, H3, P, Strong } from "@/components/Common"
-import { Cost, DetailsContainer, HotelLocation, LocationRatingContainer } from "./components"
+import { TotalPrice, DetailsContainer, HotelLocation, LocationRatingContainer } from "./components"
 import { HolidayRatings } from "@/components/Results"
 import { HolidayData } from "@/constants/mockData"
 
@@ -33,7 +33,7 @@ const HolidayCardDetails = ({
 	departureDate,
 	holidayDays,
 	departureAirport,
-	cost,
+	totalPrice,
 	rating,
 }: HolidayData): JSX.Element => {
 
@@ -61,7 +61,7 @@ const HolidayCardDetails = ({
 			
 			<PrimaryButton onClick={alertUserTheyClicked}>
 				<P>Book now</P>
-				<P><Cost>£{cost}</Cost></P>
+				<P><TotalPrice>£{totalPrice}</TotalPrice></P>
 			</PrimaryButton>
 		</DetailsContainer>
 	)

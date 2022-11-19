@@ -4,7 +4,7 @@ export type HolidayData = {
   hotelName: string;
   adultCount: number;
   childrenCount: number;
-  cost: string; // comes as a string to be rendered not an int to manipulated by the front end
+  totalPrice: string; // comes as a string to be rendered not an int to manipulated by the front end
   departureAirport: string;
   departureDate: string;
   description: string;
@@ -21,7 +21,7 @@ export const mockResults: HolidayData[] = [
 		hotelName: "Iberostar Grand Salome",
 		adultCount: 2,
 		childrenCount: 2,
-		cost: "1136.50",
+		totalPrice: "1136.50",
 		departureAirport: "East Midlands",
 		departureDate: "3rd July 2019",
 		description: "The Iberostar - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -36,7 +36,7 @@ export const mockResults: HolidayData[] = [
     hotelName: "Aguamarina Golf Hotel",
     adultCount: 2,
     childrenCount: 1,
-    cost: "696.80",
+    totalPrice: "696.80",
     departureAirport: "Liverpool",
     departureDate: "27th May 2019",
     description: "The Aguamrina - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut ercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -51,7 +51,7 @@ export const mockResults: HolidayData[] = [
     hotelName: "Las Piramidas Resort",
     adultCount: 2,
     childrenCount: 2,
-    cost: "499.99",
+    totalPrice: "499.99",
     departureAirport: "Manchester",
     departureDate: "3rd July 2019",
     description: "Las Piramidas Resort - Lorem ipsum dolor sit amet, consectetur adipnim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",

@@ -30,6 +30,6 @@ export const HotelLocation = styled(P)`
 	}
 `
 
-export const Cost = styled(Strong)`
+export const TotalPrice = styled(Strong)`
 	font-size: 25px;
 `

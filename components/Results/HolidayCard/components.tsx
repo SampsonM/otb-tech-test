@@ -7,10 +7,6 @@ export const HolidayCardContainer = styled.div`
 	flex-direction: column;
 	background-color: ${colours.primaryWhite};
 	margin-bottom: 20px;
-	
-	@media ${deviceWidthQuery.tablet} {
-		/* height: 340px; */
-	}
 `
 
 export const ImageAndDetails = styled.div`

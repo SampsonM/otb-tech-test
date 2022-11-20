@@ -28,7 +28,7 @@ const sortByFunctions = {
 const HolidayResultSorter = ({ setHolidayResults, holidayResults, defaultSortMethod }: HolidayResultSorterProps) => {
 	const [activeSortMethod, setActiveSortMethod] = useState<SortMethodsUnion | null>(null)
 
-	const sortDataByMethodAndUpdateActive = useCallback((sortByMethod: SortMethodsUnion) => {
+	const sortResultsAndUpdateActiveSortMethod = useCallback((sortByMethod: SortMethodsUnion) => {
 		if (activeSortMethod !== sortByMethod) {
 			const sortByFunction = sortByFunctions[sortByMethod]
 			const sortedHolidays = sortByFunction(holidayResults)
@@ -38,15 +38,15 @@ const HolidayResultSorter = ({ setHolidayResults, holidayResults, defaultSortMet
 	}, [setHolidayResults, setActiveSortMethod, activeSortMethod, holidayResults])
 
 	const handleAlphabeticSortButtonClick = () => {
-		sortDataByMethodAndUpdateActive(SortByMethods.ALPHABETIC)
+		sortResultsAndUpdateActiveSortMethod(SortByMethods.ALPHABETIC)
 	}
 
 	const handleTotalPriceSortButtonClick = () => {
-		sortDataByMethodAndUpdateActive(SortByMethods.PRICE)
+		sortResultsAndUpdateActiveSortMethod(SortByMethods.PRICE)
 	}
 
 	const handleRatingSortButtonClick = () => {
-		sortDataByMethodAndUpdateActive(SortByMethods.RATING)
+		sortResultsAndUpdateActiveSortMethod(SortByMethods.RATING)
 	}
 
 	useEffect(() => {
@@ -55,9 +55,9 @@ const HolidayResultSorter = ({ setHolidayResults, holidayResults, defaultSortMet
 		const activeSortMethodNotSet = activeSortMethod === null
 		
 		if (activeSortMethodNotSet) {
-			sortDataByMethodAndUpdateActive(defaultSortMethod)
+			sortResultsAndUpdateActiveSortMethod(defaultSortMethod)
 		}
-	}, [sortDataByMethodAndUpdateActive, activeSortMethod, defaultSortMethod])
+	}, [sortResultsAndUpdateActiveSortMethod, activeSortMethod, defaultSortMethod])
 
 	return (
 		<SorterContainer>

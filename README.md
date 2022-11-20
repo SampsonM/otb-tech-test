@@ -1,8 +1,8 @@
 # OTB-Tech-Test
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app), primarily because I'm here to demonstrate some knowledge of clean code and React, TypeScript, Testing, and try out some NextJS as it's used by OTB.
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) because I fancied trying out some NextJS as it's used by OTB.
 
-And although its definitely overkill for something like this it made sense to add some pizzazz!
+And although it's definitely overkill for something like this it made sense to add some pizzazz too!
 
 ## `Some House Keeping`
 

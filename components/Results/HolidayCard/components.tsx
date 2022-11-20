@@ -16,6 +16,10 @@ export const ImageAndDetails = styled.div`
 
 	@media ${deviceWidthQuery.tablet} {
 		flex-direction: row;
+		height: 410px;
+	}
+	
+	@media ${deviceWidthQuery.laptop} {
 		height: 340px;
 	}
 `

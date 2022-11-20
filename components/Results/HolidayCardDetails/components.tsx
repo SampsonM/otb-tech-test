@@ -8,6 +8,9 @@ export const DetailsContainer = styled.div`
 	@media ${deviceWidthQuery.tablet} {
 		padding: 15px;
 		width: 35%;
+		display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 	}
 `
 

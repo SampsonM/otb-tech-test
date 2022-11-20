@@ -14,6 +14,16 @@ Well I stopped offering to pair when I realised I spend more time thinking - "th
 
 In reality when I am comfortable and a job isn't on the line, I like to chat with folk and enjoy the process because why not!
 
+### `How is the "project" structured?`
+
+As its my first attempt using NextJS it might be weird but it looked like theres typically no src folder, so everything is at the root.
+- components hold components for each page, Results being the main page, and any components that could be common across multiple pages are in a Common dir.
+- constants hold some style constants and mock data.
+- pages hold... pages.
+- styles are actually handled with styled-components, another first for me in a personal project at least, I usually prefer SASS but decided to try something different
+- utils hold the sort utils, although if the sort buttons were to be 100% portable into other apps as a package, maybe they could live in a react context?
+
+
 ### `Will You Write Conventional commits?`
 
 These would be done in the real world, but its just me here and the likely-hood of anybody needing to read those to debug or revert some critical work is minimal, so I will just use descriptive commits.

@@ -1,10 +1,10 @@
 import React from "react"
 import { render } from "@testing-library/react"
-import { Container, StyledImage } from './components'
+import { HolidayCardContainer, StyledImage } from './components'
 
 describe("Elements", () => {
-	test("Container fragment matches the snapshot", () => {
-		const { asFragment } = render(<Container />)
+	test("HolidayCardContainer fragment matches the snapshot", () => {
+		const { asFragment } = render(<HolidayCardContainer />)
 		expect(asFragment()).toMatchSnapshot()
 	})
 

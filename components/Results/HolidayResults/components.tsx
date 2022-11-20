@@ -5,6 +5,6 @@ export const HolidayResultsWrapper = styled.div`
 	width: 100%;
 
 	@media ${deviceWidthQuery.tablet} {
-		width: 60%;
+		width: 65%;
 	}
 `

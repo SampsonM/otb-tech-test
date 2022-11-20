@@ -17,7 +17,7 @@ export const SortButton = styled.button<SortButtonProps>`
 	margin-bottom: 1px;
 	border: 2px solid transparent;
 
-	&:hover, :focus {
+	&:hover {
 		border: 2px solid ${colours.primaryBlue};
 		background-color: ${colours.secondaryGrey};
 		color: ${colours.primaryBlue};
@@ -25,6 +25,10 @@ export const SortButton = styled.button<SortButtonProps>`
 `
 
 export const SorterContainer = styled.div`
+	margin-bottom: 5px;
+
+	// Ideally this would be 100% width and be controlled by the consumer component
+	// so the sorter buttons could slot into anywhere they were needed
 	@media ${deviceWidthQuery.tablet} {
 		width: 25%;
 	}

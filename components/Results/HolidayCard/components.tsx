@@ -2,19 +2,25 @@ import styled from 'styled-components'
 import Image from 'next/image'
 import { colours, deviceWidthQuery } from '../../../constants/styles'
 
-export const Container = styled.div`
+export const HolidayCardContainer = styled.div`
 	display: flex;
 	flex-direction: column;
 	background-color: ${colours.primaryWhite};
 	margin-bottom: 20px;
+	
+	@media ${deviceWidthQuery.tablet} {
+		/* height: 340px; */
+	}
 `
 
 export const ImageAndDetails = styled.div`
 	display: flex;
 	flex-direction: column;
+	height: 100%;
 
 	@media ${deviceWidthQuery.tablet} {
 		flex-direction: row;
+		height: 340px;
 	}
 `
 

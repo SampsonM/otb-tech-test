@@ -1,9 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Elements Container fragment matches the snapshot 1`] = `
+exports[`Elements HolidayCardContainer fragment matches the snapshot 1`] = `
 <DocumentFragment>
   <div
-    class="components__Container-otb__sc-3690dd13-0 jVREOe"
+    class="components__HolidayCardContainer-otb__sc-40465409-0 eENjQW"
   />
 </DocumentFragment>
 `;
@@ -12,7 +12,7 @@ exports[`Elements StyledImage fragment matches the snapshot 1`] = `
 <DocumentFragment>
   <img
     alt="Picture of a hotelName"
-    class="components__StyledImage-otb__sc-3690dd13-3 ceRaZV"
+    class="components__StyledImage-otb__sc-40465409-3 fxKFaB"
     data-nimg="1"
     decoding="async"
     height="100"

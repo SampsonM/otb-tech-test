@@ -1,6 +1,6 @@
 import React from "react"
 import {
-	Container,
+	HolidayCardContainer,
 	ImageAndDetails,
 	StyledImageWrapper,
 	StyledImage,
@@ -14,7 +14,7 @@ type HolidayCardProps = {
 
 const HolidayCard = ({ holidayData }: HolidayCardProps): JSX.Element => {
 	return (
-		<Container>
+		<HolidayCardContainer>
 			<ImageAndDetails>
 				<StyledImageWrapper>
 					<StyledImage
@@ -24,12 +24,12 @@ const HolidayCard = ({ holidayData }: HolidayCardProps): JSX.Element => {
 					/>
 				</StyledImageWrapper>
 
-				{/* Would rather pass in individual props for readability, but spreading for brevity */}
+				{/* I would rather pass in individual props for readability, but spreading for brevity */}
 				<HolidayCardDetails {...holidayData} />
 			</ImageAndDetails>
 			
 			<HolidayCardDescription description={holidayData.description} />
-		</Container>
+		</HolidayCardContainer>
 	)
 }
 

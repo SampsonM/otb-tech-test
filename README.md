@@ -8,10 +8,9 @@ And although its definitely overkill for something like this it made sense to ad
 
 Before we get started, as this is a tech test, I want to lay out what is different between what I'd do in production and here.
 
-
 ### `Why Aren't You Pairing?`
 
-Well I stopped offering to do that when I realised I spend more time thinking - "they probably think you're an idiot for not knowing this now, well done, you've blown it..." - more than actually thinking about the problem I was dealing with. When in reality I was just writing an if statement and nobody was paying attention just yet.
+Well I stopped offering to pair when I realised I spend more time thinking - "they probably think you're an idiot for not knowing this now, well done, you've blown it..." - more than actually thinking about the problem I was dealing with. When in reality I was just writing an if statement and nobody was paying attention just yet.
 
 In reality when I am comfortable and a job isn't on the line, I like to chat with folk and enjoy the process because why not!
 

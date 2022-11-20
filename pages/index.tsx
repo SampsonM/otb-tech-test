@@ -2,7 +2,8 @@ import React, { useState } from 'react'
 import Head from 'next/head'
 import { PageWrapper } from '@/components/Common'
 import { HolidayResultSorter, HolidaySortAndResultsContainer, HolidayResults } from '@/components/Results'
-import { HolidayData, mockResults } from '../constants/mockData'
+import { HolidayData, mockResults } from '@/constants/mockData'
+import { SortByMethods } from '@/components/Results/HolidayResultSorter/HolidayResultSorter'
 
 export default function Results() {
   const [holidayResults, setHolidayResults] = useState<HolidayData[]>(mockResults)
@@ -19,6 +20,7 @@ export default function Results() {
         <HolidayResultSorter
           setHolidayResults={setHolidayResults}
           holidayResults={holidayResults}
+          defaultSortMethod={SortByMethods.PRICE}
         />
         <HolidayResults holidayResults={holidayResults} />
       </HolidaySortAndResultsContainer>

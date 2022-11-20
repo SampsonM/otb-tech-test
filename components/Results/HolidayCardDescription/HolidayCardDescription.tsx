@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { FaChevronDown, FaChevronUp } from "react-icons/fa"
+import { FaChevronDown, FaChevronRight, FaChevronUp } from "react-icons/fa"
 import { Strong } from "@/components/Common"
 import { DescriptionWrapper, DescriptionContainer, ReadMoreButton } from "./components"
 
@@ -13,7 +13,7 @@ const HolidayCardDescription = ({ description }: { description: string }) => {
 	const getMoreOrLessText = () => showDescription ? 'less' : 'more'
 
 	const Chevron = () => showDescription
-		?  <FaChevronDown />
+		?  <FaChevronRight />
 		: <FaChevronUp />
 
 

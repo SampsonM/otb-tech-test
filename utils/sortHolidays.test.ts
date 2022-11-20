@@ -1,4 +1,4 @@
-import { sortHolidaysAlphabeticallyByHotelName, sortHolidaysByTotalPrice, sortHolidaysByTotalRating } from "./sortHolidays"
+import { sortHolidaysAlphabeticallyByHotelName, sortHolidaysByTotalPrice, sortHolidaysByRating } from "./sortHolidays"
 
 describe("sortHolidays", () => {
 	test("should sort holidays alphabetically", () => {
@@ -26,7 +26,7 @@ describe("sortHolidays", () => {
 	})
 
 	test("should sort holidays by rating", () => {
-		const sortedHolidays = sortHolidaysByTotalRating([
+		const sortedHolidays = sortHolidaysByRating([
 			// @ts-expect-error testing basic input
 			{ rating: 5 }, { rating: 1 }, { rating: 2 }, { rating: 5 }, { rating: 3 }, { rating: 4 },
 		])

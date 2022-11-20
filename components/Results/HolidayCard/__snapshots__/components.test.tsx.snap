@@ -3,7 +3,7 @@
 exports[`Elements HolidayCardContainer fragment matches the snapshot 1`] = `
 <DocumentFragment>
   <div
-    class="components__HolidayCardContainer-otb__sc-40465409-0 eENjQW"
+    class="components__HolidayCardContainer-otb__sc-6a025b9d-0 gxOfAh"
   />
 </DocumentFragment>
 `;
@@ -12,7 +12,7 @@ exports[`Elements StyledImage fragment matches the snapshot 1`] = `
 <DocumentFragment>
   <img
     alt="Picture of a hotelName"
-    class="components__StyledImage-otb__sc-40465409-3 fxKFaB"
+    class="components__StyledImage-otb__sc-6a025b9d-3 gbktoY"
     data-nimg="1"
     decoding="async"
     height="100"

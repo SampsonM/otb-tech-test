@@ -16,7 +16,6 @@ const HolidayCardDescription = ({ description }: { description: string }) => {
 		?  <FaChevronRight />
 		: <FaChevronUp />
 
-
 	return (
 		<DescriptionContainer>
 			<ReadMoreButton onClick={toggleShowDescription}>

@@ -22,7 +22,6 @@ export const ReadMoreButton = styled.button`
 	border: 0;
 	background-color: ${colours.primaryWhite};
 	height: 30px;
-	padding-left: 20px;
 	text-align: left;
 	width: 100%;
 
@@ -32,9 +31,10 @@ export const ReadMoreButton = styled.button`
 
 	@media ${deviceWidthQuery.tablet} {
 		width: auto;
-		padding: 10px 20px;
+		min-width: 253px;
+		margin: 0 auto;
     position: absolute;
-    top: -40px;
+    top: -36px;
     height: auto;
 	}
 `

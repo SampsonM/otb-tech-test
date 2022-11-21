@@ -1,6 +1,6 @@
 import React, { useState } from "react"
-import { FaChevronDown, FaChevronRight, FaChevronUp } from "react-icons/fa"
-import { Strong } from "@/components/Common"
+import { FaChevronRight, FaChevronUp } from "react-icons/fa"
+import { P, Strong } from "@/components/Common"
 import { DescriptionWrapper, DescriptionContainer, ReadMoreButton } from "./components"
 
 const HolidayCardDescription = ({ description }: { description: string }) => {
@@ -19,7 +19,7 @@ const HolidayCardDescription = ({ description }: { description: string }) => {
 	return (
 		<DescriptionContainer>
 			<ReadMoreButton onClick={toggleShowDescription}>
-				<Strong>Read {getMoreOrLessText()}</Strong>&nbsp; about this hotel&nbsp;<Strong>{Chevron()}</Strong>
+				<P><Strong>Read {getMoreOrLessText()}</Strong> about this hotel <Strong>{Chevron()}</Strong></P>
 			</ReadMoreButton>
 
 			{

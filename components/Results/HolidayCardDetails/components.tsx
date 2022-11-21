@@ -1,4 +1,4 @@
-import { H3, P, Strong } from "@/components/Common/Typography/Typography"
+import { P, Strong } from "@/components/Common/Typography/Typography"
 import styled from "styled-components"
 import { deviceWidthQuery } from "../../../constants/styles"
 
